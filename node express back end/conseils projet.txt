@@ -1,0 +1,34 @@
+ installer Mongo DB sur l'ordi node express l'API et react le front. tuto node express etc... normalement ça se fait. Ensuite atlas pour héberger le mongo DB (gratuit) et digital ocean pour héberger l'API (pas très cher et normalement ça héberge le front gratos). 
+
+ 
+ To run MongoDB for a small application, you can follow these basic steps:
+
+    Download and install MongoDB: You can download the latest version of MongoDB from the official website and install it on your system. The installation process will vary depending on your operating system.
+
+    Start the MongoDB server: Once MongoDB is installed, you can start the server by running the mongod command in a terminal or command prompt. This will start the server on the default port 27017.
+
+    Connect to the server: To connect to the server, open a new terminal or command prompt window and run the mongo command. This will open a MongoDB shell, which allows you to interact with the server and perform operations such as creating databases and inserting data.
+
+    Create a database and collections: Once you're connected to the server, you can create a new database and collections to store your data. To create a new database, use the use command followed by the name of the database. To create a new collection, you can use the db.createCollection() method.
+
+    Insert data: You can insert data into a collection using the db.collection.insert() method. For example, db.myCollection.insert({ name: "John", age: 30 }) will insert a new document into the myCollection collection.
+
+    Query data: You can retrieve data from a collection using the db.collection.find() method. For example, db.myCollection.find({ name: "John" }) will retrieve all documents from the myCollection collection that have a name field equal to "John".
+    
+    
+    
+    Creating a basic API typically involves the following steps:
+    
+    Define the API endpoints: Determine the endpoints that your API will expose. An endpoint is a URL that can be used to interact with a specific resource or functionality of your application. For example, /users could be an endpoint to retrieve a list of users.
+
+    Choose a programming language and framework: Choose a programming language and web framework that you are comfortable with. Popular choices include Node.js with Express, Python with Flask, Ruby on Rails, and Java with Spring.
+
+    Create the API routes: Use your chosen web framework to define the API routes that correspond to the endpoints you defined in step 1. Each route should have a corresponding HTTP method (e.g. GET, POST, PUT, DELETE) that determines the type of action to be performed.
+
+    Define the data models: Define the data models that your API will work with. This typically involves defining the structure of the data and the relationships between different entities. You may also need to define validation rules to ensure that the data being passed to the API is valid.
+
+    Implement the API logic: Write the code that handles the API requests and returns the appropriate responses. This typically involves retrieving or modifying data from a database or other data source.
+
+    Test the API: Use a tool such as Postman or cURL to test the API and verify that it is functioning correctly.
+
+    Deploy the API: Deploy the API to a web server or cloud service so that it can be accessed by external clients.

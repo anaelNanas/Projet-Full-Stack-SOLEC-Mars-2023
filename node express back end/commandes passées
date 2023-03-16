@@ -1,0 +1,6 @@
+npm init (entrée entrée entrée)
+npm i express mongoose
+npm i --save-dev dotenv nodemon
+
+
+npm run devStart (pour lancer le bail. devStart ça vient du package.json)

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+
+    "outDir": "./built",
+    "target": "es2016",                      
+    "jsx": "preserve",                       
+
+    "sourceMap": false,
+    "module": "commonjs",              
+
+    "allowJs": true,                         
+    "esModuleInterop": true,                 
+
+    "strict": false,                         
+
+    "skipLibCheck": true                     
+  },
+  "exclude": ["./built/**/*"] // This is what fixed it!
+}
+
+// si y a des bails dans PROBLEMS de VS code, les solutions sont ici et dans .eslintrc.js (tout en haut)

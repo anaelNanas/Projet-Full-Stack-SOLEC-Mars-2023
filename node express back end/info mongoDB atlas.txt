@@ -1,0 +1,12 @@
+mongoDB atlas :
+    id : courjaudanael@gmail.com
+    mdp : paulaloula
+
+    Projet paille :
+        utilisateur admin :
+            id : adminProjetPaille
+            mdp : mdpAdminProjetPaille
+        utilisateur normal : (read and write any database)
+            id : userProjetPaille
+            mdp : mdpUserProjetPaille
+                
