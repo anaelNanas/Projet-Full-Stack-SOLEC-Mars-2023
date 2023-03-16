@@ -28,6 +28,8 @@ function App() {
   //   fetch('http://localhost:3005/api/customers').then(response => response.json()).then(json => setCustomerList(json));
   // }, []);
 
+  //
+  //
   // console.log("customerList", customerList);
   
   
