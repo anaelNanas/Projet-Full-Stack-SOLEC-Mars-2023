@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Projet-Full-Stack-SOLEC-Mars-2023/static/css/main.2e3b5bf7.css",
+    "main.js": "/Projet-Full-Stack-SOLEC-Mars-2023/static/js/main.ce14ceaf.js",
+    "static/js/787.3ea76cf8.chunk.js": "/Projet-Full-Stack-SOLEC-Mars-2023/static/js/787.3ea76cf8.chunk.js",
+    "index.html": "/Projet-Full-Stack-SOLEC-Mars-2023/index.html",
+    "main.2e3b5bf7.css.map": "/Projet-Full-Stack-SOLEC-Mars-2023/static/css/main.2e3b5bf7.css.map",
+    "main.ce14ceaf.js.map": "/Projet-Full-Stack-SOLEC-Mars-2023/static/js/main.ce14ceaf.js.map",
+    "787.3ea76cf8.chunk.js.map": "/Projet-Full-Stack-SOLEC-Mars-2023/static/js/787.3ea76cf8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e3b5bf7.css",
+    "static/js/main.ce14ceaf.js"
+  ]
+}
